@@ -3,27 +3,32 @@
     padding: 0;
 }
 body{
-    background-color:  #2f3330;
+    background-color: black;
+}
+#main{
+    width: 100%;
+    height: 600px;
    
 }
-.main{
-margin-top: 20px;
-
-}
 .content{
- width: 20%;
- height: 300px;
-background-color: #4a4a4a;
-margin: 50px auto;  
-}
-.button{
+    width: 20%;
+    height: 300px;
+    background-color: #4a4a4a;
+    padding: 10px;
+    margin-top: 50px;
+    margin: 0 auto;
+    margin-top: 50px;
+   
     
-width: 200px;
-height: 20px;
-background-color: black;
-border-radius: 10px;
-margin: 3px auto;
 
+}
+.button_list{
+    width: 200px;
+    height: 20px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 3px auto;
+    border-right: none;
 }
 .button{
     width: 200px;
@@ -31,16 +36,9 @@ margin: 3px auto;
     background-color: black;
     border-radius: 10px;
     margin: 3px auto;   
-    }
-    .button{
-        width: 200px;
-        height: 20px;
-        background-color: black;
-        border-radius: 10px;
-        margin: 3px auto; 
-    }
- 
+    color: white;
+}
 .button:hover{
-   
     background-color:#302f2f;
+    border-right: none;
 }
